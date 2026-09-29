@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "name": "demo_places",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {"name": "London", "kind": "city"},
+      "geometry": {"type": "Point", "coordinates": [-0.1276, 51.5072]}
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {"name": "Paris", "kind": "city"},
+      "geometry": {"type": "Point", "coordinates": [2.3522, 48.8566]}
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {"name": "Berlin", "kind": "city"},
+      "geometry": {"type": "Point", "coordinates": [13.4050, 52.5200]}
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {"name": "channel-rail", "kind": "rail"},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [[-0.5, 50.7], [1.5, 50.9], [3.0, 50.8]]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {"name": "benelux", "kind": "region"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[2.5, 51.0], [7.0, 51.0], [7.0, 53.5], [2.5, 53.5], [2.5, 51.0]]]
+      }
+    }
+  ]
+}
